@@ -4,6 +4,8 @@ import Baner from "./Baner";
 import About from "./About";
 import Project from "./Project";
 import Skills from "./Skills";
+import Aboutme from "./Aboutme";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
       <div className="main">
         <Header />
         <Baner />
-        <About />
-        <Project />
+        <Aboutme/>
+        <Projects/>
         <Skills/>
       </div>
     </>

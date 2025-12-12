@@ -6,8 +6,8 @@ const Baner = () => {
           <div className="container">
             <div className="baner-wrap">
               <div className="baner-left">
-                <h3 className="bl-1">It's Me Your's</h3>
-                <h1 className="bl-2">Shahriear Al Amin</h1>
+                <h3 className="bl-1 edusa">It's Me Your's</h3>
+                <h1 className="bl-2 edusa">Shahriear Al Amin</h1>
                 <h3 className="bl-3">
                   A Mern Stack <span>Developer</span>
                 </h3>
@@ -39,8 +39,8 @@ const Baner = () => {
                   </li>
                 </ul>
                 <div className="bl-button">
-                  <button>Download Cv</button>
-                  <button> Hire Me</button>
+                  <button className='edusa'>Download Cv</button>
+                  <button className='edusa'> Hire Me</button>
                 </div>
               </div>
               <div className="baner-right">

@@ -1,13 +1,15 @@
 @import "tailwindcss";
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gupter:wght@400;500;700&family=Habibi&family=Kode+Mono:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');/* font-family: "Roboto Condensed", sans-serif;
-  font-family: "Gupter", serif;
-  font-family: "Habibi", serif;
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Cause:wght@100..900&family=Edu+SA+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Habibi&family=Kode+Mono:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"); /* font-family: "Gupter", serif;
+font-family: "Habibi", serif;
   font-family: "Space Grotesk", sans-serif;
   font-family: "Kode Mono", monospace;
-  font-family: "Bungee", sans-serif;
- */
+  font-family: "Bungee", sans-serif; 
+    font-family: "Edu SA Hand", cursive;
+
+  */
+.edusa {
+  font-family: "Edu SA Hand", cursive;
+}
 html {
   scrollbar-width: none;
 }
@@ -248,7 +250,6 @@ nav ul li:nth-child(5) {
 
 .baner-left .bl-1 {
   font-size: 25px;
-  font-family: "Habibi", serif;
   margin-left: 50px;
   letter-spacing: 3px;
   font-weight: 900;
@@ -274,12 +275,13 @@ nav ul li:nth-child(5) {
 }
 .baner-left .bl-2 {
   font-size: 50px;
-font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
+  margin-left: 50px;
   animation: bl-2;
   animation-duration: 1s;
   position: absolute;
   cursor: context-menu;
-  font-weight: 900;
+  font-weight: 600;
+  font-family: "Space Grotesk", sans-serif;
 }
 @keyframes bl-2 {
   from {
@@ -409,13 +411,12 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
-@keyframes baner-icon1{
-  from{
-
+@keyframes baner-icon1 {
+  from {
   }
   to {
-  box-shadow: 0px 0px 10px rgb(0, 255, 200);
-  background-color: aqua;
+    box-shadow: 0px 0px 10px rgb(0, 255, 200);
+    background-color: aqua;
   }
 }
 
@@ -425,13 +426,12 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   animation-delay: 1.7s;
   animation-fill-mode: forwards;
 }
-@keyframes baner-icon2{
-  from{
-
+@keyframes baner-icon2 {
+  from {
   }
   to {
-  box-shadow: 0px 0px 10px rgb(0, 255, 200);
-  background-color: aqua;
+    box-shadow: 0px 0px 10px rgb(0, 255, 200);
+    background-color: aqua;
   }
 }
 
@@ -441,13 +441,12 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   animation-delay: 1.9s;
   animation-fill-mode: forwards;
 }
-@keyframes baner-icon3{
-  from{
-
+@keyframes baner-icon3 {
+  from {
   }
   to {
-  box-shadow: 0px 0px 10px rgb(0, 255, 200);
-  background-color: aqua;
+    box-shadow: 0px 0px 10px rgb(0, 255, 200);
+    background-color: aqua;
   }
 }
 
@@ -457,13 +456,12 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   animation-delay: 2.1s;
   animation-fill-mode: forwards;
 }
-@keyframes baner-icon4{
-  from{
-
+@keyframes baner-icon4 {
+  from {
   }
   to {
-  box-shadow: 0px 0px 10px rgb(0, 255, 200);
-  background-color: aqua;
+    box-shadow: 0px 0px 10px rgb(0, 255, 200);
+    background-color: aqua;
   }
 }
 .baner-left ul li:nth-child(2) {
@@ -972,12 +970,12 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
 #project {
   background-color: #000000;
 }
-.project-wraper{
+.project-wraper {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
 }
-.ph2{
+.ph2 {
   text-align: center;
   font-size: 40px;
   font-family: "Bungee", sans-serif;
@@ -992,7 +990,7 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   box-shadow: 1px 1px 40px rgb(183, 0, 255);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-.project1:hover{
+.project1:hover {
   transform: scale(1.1);
   z-index: 100;
 }
@@ -1005,7 +1003,7 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   box-shadow: 1px 1px 40px rgba(255, 153, 0, 0.61);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-.project2:hover{
+.project2:hover {
   transform: scale(1.2);
   z-index: 100;
 }
@@ -1017,7 +1015,7 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   box-shadow: 1px 1px 50px rgb(250, 250, 250);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-.project3:hover{
+.project3:hover {
   transform: scale(1.1);
   z-index: 100;
 }
@@ -1030,7 +1028,7 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   margin-top: 100px;
 }
-.project4:hover{
+.project4:hover {
   transform: scale(1.1);
   z-index: 100;
 }
@@ -1043,7 +1041,7 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   margin-top: 100px;
 }
-.project5:hover{
+.project5:hover {
   transform: scale(1.1);
   z-index: 100;
 }
@@ -1057,182 +1055,185 @@ font-family: "Space Grotesk", sans-serif;  margin-left: 50px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   margin-top: 100px;
 }
-.project6:hover{
+.project6:hover {
   transform: scale(1.1);
   z-index: 100;
 }
-.project1 video{
-margin-top: -25px;
+.project1 video {
+  margin-top: -25px;
 }
-.project1 video{
+.project1 video {
   opacity: 30%;
   transition: opacity 0.5s ease;
 }
-.project1 video:hover{
+.project1 video:hover {
   opacity: 100%;
 }
-.project2 img{
+.project2 img {
   opacity: 30%;
   transition: opacity 0.5s ease;
 }
-.project2 img:hover{
+.project2 img:hover {
   opacity: 100%;
 }
-.project3 img{
+.project3 img {
   opacity: 30%;
   transition: opacity 0.5s ease;
 }
-.project3 img:hover{
+.project3 img:hover {
   opacity: 100%;
 }
-.project4 img{
+.project4 img {
   opacity: 30%;
   transition: opacity 0.5s ease;
 }
-.project4 img:hover{
+.project4 img:hover {
   opacity: 100%;
 }
-.project5 img{
+.project5 img {
   opacity: 30%;
   transition: opacity 0.5s ease;
 }
-.project5 img:hover{
+.project5 img:hover {
   opacity: 100%;
 }
-.project6 img{
+.project6 img {
   opacity: 30%;
   transition: opacity 0.5s ease;
 }
-.project6 img:hover{
+.project6 img:hover {
   opacity: 100%;
 }
 
-#Skills{
+#Skills {
   min-height: 700px;
   margin-top: 100px;
 }
-.fa-react{
+.fa-react {
   animation: rotate;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   text-shadow: 1px 1px 30px #00ffea;
 }
-.html{
-    animation-name: html2;
-    animation-iteration-count: infinite;
-    animation-duration: 4.5s;
-    margin-top: 30px;
-    text-shadow: 1px 1px 30px #ff5100;
+.html {
+  animation-name: html2;
+  animation-iteration-count: infinite;
+  animation-duration: 4.5s;
+  margin-top: 30px;
+  text-shadow: 1px 1px 30px #ff5100;
 }
 @keyframes html2 {
-    0% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
 
-    50% {
-        transform: translateY(-30px);
-    }
+  50% {
+    transform: translateY(-30px);
+  }
 
-    100% {
-        transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
+  }
 }
-.css{
+.css {
   animation-name: css2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-@keyframes css2{
-      0% {}
+@keyframes css2 {
+  0% {
+  }
 
-    60% {
-      text-shadow: 1px 1px 20px #006eff;
-    }
+  60% {
+    text-shadow: 1px 1px 20px #006eff;
+  }
 
-    100% {}
+  100% {
+  }
 }
-.js{
-animation: js2;
-animation-duration: 2s;
-animation-iteration-count: infinite;
-    text-shadow: 1px 1px 30px #fffb00;
-animation-timing-function: linear;
+.js {
+  animation: js2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  text-shadow: 1px 1px 30px #fffb00;
+  animation-timing-function: linear;
 }
-@keyframes js2{
-      0% {
-        transform: scale(1);
-    }
+@keyframes js2 {
+  0% {
+    transform: scale(1);
+  }
 
-    60% {
-        transform: scale(1.1)
-    }
+  60% {
+    transform: scale(1.1);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
-.tailwind{
-    animation-name: rotate-tw;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    rotate: -15deg;
+.tailwind {
+  animation-name: rotate-tw;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  rotate: -15deg;
 }
 @keyframes rotate-tw {
-    0% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    60% {
-        transform: rotate(30deg);
-    }
+  60% {
+    transform: rotate(30deg);
+  }
 
-    100% {
-        transform: rotate(0deg);
-    }
+  100% {
+    transform: rotate(0deg);
+  }
 }
-.fa-bootstrap{
-text-shadow: 1px 1px 40px #5900ff;
-animation: js;
-animation-duration: 2s;
-animation-iteration-count: infinite;
+.fa-bootstrap {
+  text-shadow: 1px 1px 40px #5900ff;
+  animation: js;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
-.fa-github{
+.fa-github {
   animation-name: github;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-@keyframes github{
-      0% {}
+@keyframes github {
+  0% {
+  }
 
-    60% {
-      color: #292a2b;
-    }
+  60% {
+    color: #292a2b;
+  }
 
-    100% {}
+  100% {
+  }
 }
 
-
-.html-p{
+.html-p {
   font-family: "Kode Mono", monospace;
   font-weight: 700;
 }
-.html-slider{
+.html-slider {
   box-shadow: 1px 1px 10px #ff5100;
   animation: html-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes html-slider{
-  100%{
+@keyframes html-slider {
+  100% {
     width: 280px;
   }
 }
-.html-slider::after{
+.html-slider::after {
   content: "95%";
   height: 20px;
   width: 30px;
@@ -1248,20 +1249,19 @@ animation-iteration-count: infinite;
   margin-top: -23px;
 }
 
-
-.css-slider{
-  box-shadow: 1px 1px 10px #0066ff;  
+.css-slider {
+  box-shadow: 1px 1px 10px #0066ff;
   animation: css-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes css-slider{
-  100%{
+@keyframes css-slider {
+  100% {
     width: 260px;
   }
 }
-.css-slider::after{
+.css-slider::after {
   content: "90%";
   height: 20px;
   width: 30px;
@@ -1277,20 +1277,19 @@ animation-iteration-count: infinite;
   margin-top: -23px;
 }
 
-
-.js-slider{
-  box-shadow: 1px 1px 10px #eeff00;  
+.js-slider {
+  box-shadow: 1px 1px 10px #eeff00;
   animation: js-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes js-slider{
-  100%{
+@keyframes js-slider {
+  100% {
     width: 240px;
   }
 }
-.js-slider::after{
+.js-slider::after {
   content: "80%";
   height: 20px;
   width: 30px;
@@ -1306,19 +1305,19 @@ animation-iteration-count: infinite;
   margin-top: -23px;
 }
 
-.react-slider{
-  box-shadow: 1px 1px 10px #00f7ff;  
+.react-slider {
+  box-shadow: 1px 1px 10px #00f7ff;
   animation: react-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes react-slider{
-  100%{
+@keyframes react-slider {
+  100% {
     width: 210px;
   }
 }
-.react-slider::after{
+.react-slider::after {
   content: "70%";
   height: 20px;
   width: 30px;
@@ -1334,19 +1333,19 @@ animation-iteration-count: infinite;
   margin-top: -23px;
 }
 
-.Tailwind-slider{
-  box-shadow: 1px 1px 10px #0066ff;  
+.Tailwind-slider {
+  box-shadow: 1px 1px 10px #0066ff;
   animation: Tailwind-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes Tailwind-slider{
-  100%{
+@keyframes Tailwind-slider {
+  100% {
     width: 260px;
   }
 }
-.Tailwind-slider::after{
+.Tailwind-slider::after {
   content: "90%";
   height: 20px;
   width: 30px;
@@ -1362,19 +1361,19 @@ animation-iteration-count: infinite;
   margin-top: -23px;
 }
 
-.Bootstrap-slider{
-  box-shadow: 1px 1px 10px #7700ff;  
+.Bootstrap-slider {
+  box-shadow: 1px 1px 10px #7700ff;
   animation: Bootstrap-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes Bootstrap-slider{
-  100%{
+@keyframes Bootstrap-slider {
+  100% {
     width: 260px;
   }
 }
-.Bootstrap-slider::after{
+.Bootstrap-slider::after {
   content: "90%";
   height: 20px;
   width: 30px;
@@ -1390,19 +1389,19 @@ animation-iteration-count: infinite;
   margin-top: -23px;
 }
 
-.Figma-slider{
-  box-shadow: 1px 1px 10px #33ff00;  
+.Figma-slider {
+  box-shadow: 1px 1px 10px #33ff00;
   animation: Figma-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-@keyframes Figma-slider{
-  100%{
+@keyframes Figma-slider {
+  100% {
     width: 230px;
   }
 }
-.Figma-slider::after{
+.Figma-slider::after {
   content: "80%";
   height: 20px;
   width: 30px;
@@ -1417,19 +1416,19 @@ animation-iteration-count: infinite;
   margin-left: 220px;
   margin-top: -23px;
 }
-.Git-slider{  
+.Git-slider {
   animation: Git-slider;
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   box-shadow: 1px 1px 10px #fdfdfd;
 }
-@keyframes Git-slider{
-  100%{
+@keyframes Git-slider {
+  100% {
     width: 220px;
   }
 }
-.Git-slider::after{
+.Git-slider::after {
   content: "70%";
   height: 20px;
   width: 30px;
@@ -1444,6 +1443,24 @@ animation-iteration-count: infinite;
   margin-left: 210px;
   margin-top: -23px;
 }
+.live-link {
+  margin-top: -740px;
+  transform: translateY(0);
+  transition: transform 0.4s ease;
+}
+
+.project-cart:hover .live-link {
+  transform: translateY(370px);
+}
+.project-cart {
+  transform: scale(0.9);
+  transition: transform 0.4s ease;
+  margin-top: 30px;
+}
+
+.project-cart:hover {
+  transform: scale(1);
+}
 
 
 
@@ -1494,11 +1511,13 @@ animation-iteration-count: infinite;
 
 
 
-@media (min-width: 320px) and  (max-width: 575px) {
+
+
+@media (min-width: 320px) and (max-width: 575px) {
   .container {
     width: 100%;
   }
-    /* nav{
+  /* nav{
       position: sticky;
       top: 0px;
     } */
@@ -1507,7 +1526,7 @@ animation-iteration-count: infinite;
     margin-left: 10px;
   }
   nav ul {
-    background-color: rgba(0, 0, 0, 0.1); 
+    background-color: rgba(0, 0, 0, 0.1);
     height: 250px;
     display: none;
     color: black;
@@ -1521,10 +1540,10 @@ animation-iteration-count: infinite;
     backdrop-filter: blur(10px);
   }
   @keyframes flot {
-    from{
+    from {
       top: -300px;
     }
-    to{
+    to {
       top: 0px;
     }
   }
@@ -1580,12 +1599,12 @@ animation-iteration-count: infinite;
   #baner {
     height: 430px;
   }
-    .baner-left{
-      height: 430px;
-    }
-    .baner-wrap{
-      height: 430px;
-    }
+  .baner-left {
+    height: 430px;
+  }
+  .baner-wrap {
+    height: 430px;
+  }
   .baner-left .bl-1 {
     font-size: 15px;
     margin-left: 20px;
@@ -1705,12 +1724,12 @@ animation-iteration-count: infinite;
   .main-line {
     display: none;
   }
-    #about {
+  #about {
     margin-top: 100px;
     height: 1300px;
     position: static;
   }
-  .tree-wrap{
+  .tree-wrap {
     display: grid;
     justify-content: center;
     height: 1300px;
@@ -1816,54 +1835,54 @@ animation-iteration-count: infinite;
     display: none;
     margin-left: 142px;
   }
-#project{
-  margin-top: 100px;
-  height: auto;
-  background-color: #000000;
-  height: 1400px;
-}
-.project-wraper{
-  display: flex;
-  max-height: 1400x;
-  justify-content: center;
-}
-.ph2 {  
-  font-size: 23px;
-  margin-bottom: 90px;
-}
-.project1{
-  position: absolute;
-  width: 300px;
-  height: 144px;
-}
-.project2{
-  margin-top: 220px;
-  width: 300px;
-  position: absolute;
-  height: 150px;
-}
-.project3{
-  margin-top: 450px;
-  width: 300px;
-  position: absolute;
-  height: 150px;
-}
-.project4{
-  margin-top: 670px;
-  width: 300px;
-  position: absolute;
-  height: 160px;
-}
-.project5{
-  margin-top: 900px;
-  width: 300px;
-  position: absolute;
-  height: 147px;
-}
-.project6{
-  position: absolute;
-  width: 300px;
-  margin-top: 1100px;
-  height: 143px;
-}
+  #project {
+    margin-top: 100px;
+    height: auto;
+    background-color: #000000;
+    height: 1400px;
+  }
+  .project-wraper {
+    display: flex;
+    max-height: 1400x;
+    justify-content: center;
+  }
+  .ph2 {
+    font-size: 23px;
+    margin-bottom: 90px;
+  }
+  .project1 {
+    position: absolute;
+    width: 300px;
+    height: 144px;
+  }
+  .project2 {
+    margin-top: 220px;
+    width: 300px;
+    position: absolute;
+    height: 150px;
+  }
+  .project3 {
+    margin-top: 450px;
+    width: 300px;
+    position: absolute;
+    height: 150px;
+  }
+  .project4 {
+    margin-top: 670px;
+    width: 300px;
+    position: absolute;
+    height: 160px;
+  }
+  .project5 {
+    margin-top: 900px;
+    width: 300px;
+    position: absolute;
+    height: 147px;
+  }
+  .project6 {
+    position: absolute;
+    width: 300px;
+    margin-top: 1100px;
+    height: 143px;
+  }
 }

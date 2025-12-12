@@ -4,11 +4,13 @@ import { FaLaptopCode } from "react-icons/fa";
 import { PiCodeBold } from "react-icons/pi";
 import { HiAdjustmentsVertical } from "react-icons/hi2";
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import { RiGraduationCapFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
     <div id="Skills">
       <div className="container">
+            <h2 className ="text-[30px] text-center pb-[50px]">My Skills and Educations</h2>
         <div className="h-[60px] flex justify-between items-center">
           <i className="fa-brands fa-html5 text-[#ff5100] text-[40px] html"></i>
           <i className="fa-brands fa-css3 text-[#003cff] text-[40px] css"></i>
@@ -106,18 +108,68 @@ const Skills = () => {
               </div>
             </div>
             <div>
-            <div className="flex ml-[240px] gap-[20px] mt-[60px]">
-            <div className=" rounded-[10px] h-[250px] w-[200px] bg-[#58575a3b] backdrop-blur-[10px]"></div>
-            <div className=" rounded-[10px] h-[250px] w-[200px] bg-[#5a57573b] backdrop-blur-[10px]"></div>
-            <div className=" rounded-[10px] h-[250px] w-[200px] bg-[#5a57573b] backdrop-blur-[10px]"></div>
+              <div className=" ml-[350px] gap-[20px] mt-[30px]">
+                <div className=" mb-[5px] rounded-[10px] scale-[0.9] hover:scale-[1.1] transition-all h-[130px] w-[400px] bg-[#58575a3b] backdrop-blur-[10px]">
+                  <div className = " flex gap-4 items-center">
+                    <div className = "  mt-[10px] ml-[10px] bg-[#ffffff] h-[30px] w-[30px] flex justify-center items-center rounded-full">
+                    <RiGraduationCapFill size={20} className = "text-[black]" />
+                  </div>
+                  <h2 className = " text-[20px]">Higher Secondary Certificate (HSC)</h2>
+                  </div>
+                  <h3 className = "ml-[55px] text-[16px] text-[#c5d47f]">Manda Mohanogor College ( 2023-2024 )</h3>
+                  <div className = "ml-[55px] mt-[10px] text-[14px]">
+                    <h2>- Completed HSC from the Science group.</h2>
+                    <h2>- Focused on ICT and English Literature.</h2>
+                  </div>
+                </div>
+                <div className="mb-[5px] rounded-[10px] scale-[0.9] hover:scale-[1.1] transition-all h-[150px] w-[400px] bg-[#5a57573b] backdrop-blur-[10px]">
+                  <div className = " flex items-center gap-4">
+                    <div className = "  mt-[10px] ml-[10px] bg-[#ffffff] h-[30px] w-[30px] flex justify-center items-center rounded-full">
+                    <RiGraduationCapFill size={20} className = "text-[black]" />
+                  </div>
+                  <h2 className = " text-[20px]">Diploma DEGREE from - creative it</h2>
+                  </div>
+                  <h3 className = "ml-[55px] text-[16px] text-[#c5d47f]">Creative it institute (2024-2025)</h3>
+                  <div className = "ml-[55px] mt-[10px] text-[14px]">
+                    <h2>Diploma graduate from Creative IT Institute, achieving excellence and distinction in web development with top honors</h2>
+                  </div>
+                </div>
+                <div className=" rounded-[10px] scale-[0.9] hover:scale-[1.1] transition-all h-[150px] w-[400px] bg-[#5a57573b] backdrop-blur-[10px]">
+                  <div className = " flex items-center gap-4">
+                    <div className = "  mt-[10px] ml-[10px] bg-[#ffffff] h-[30px] w-[30px] flex justify-center items-center rounded-full">
+                    <RiGraduationCapFill size={20} className = "text-[black]" />
+                  </div>
+                  <h2 className = " text-[20px]">Front-End DEVELOPER</h2>
+                  </div>
+                  <h3 className = "ml-[55px] text-[16px] text-[#c5d47f]">Work at fiver as freelancer (2024-2026)</h3>
+                  <div className = "ml-[55px] mt-[10px] text-[14px]">
+                    <h2>Fiverr front-end dev: Customized web solutions for diverse clients worldwide, honing versatility and client rapport</h2>
+                    </div>
+                </div>
+              </div>
+              <div className=" flex gap-[50px] ml-[380px] mt-[10px]">
+                <div className="h-[100px] w-[100px]">
+                  <p className=" gap-[10px] font-[600] text-[30px] flex">
+                    10 <span className="text-[#ff3300] font-[700]">+</span>{" "}
+                  </p>{" "}
+                  <p className="text-[15px] font-[600]">Compleated Project</p>
+                </div>
+                <div className="h-[100px] w-[100px]">
+                  <p className=" gap-[10px] font-[600] text-[30px] flex">
+                    97 <span className="text-[#ff3300] font-[700]">%</span>
+                  </p>
+                  <p className="text-[15px] font-[600]">
+                    Of Client Satisfaction
+                  </p>
+                </div>
+                <div className="h-[100px] w-[100px]">
+                  <p className=" gap-[10px] font-[600] text-[30px] flex">
+                    1.5 <span className="text-[#ff3300] font-[700]">+</span>
+                  </p>
+                  <p className="text-[15px] font-[600]">Year Of experience</p>
+                </div>
+              </div>
             </div>
-            <div className=" flex gap-[50px] ml-[380px] mt-[70px]">
-                <div className="h-[100px] w-[100px]"><p className=" gap-[10px] font-[600] text-[30px] flex">10 <span className="text-[#ff3300] font-[700]">+</span> </p> <p className="text-[15px] font-[600]">Compleated Project</p></div>
-                <div className="h-[100px] w-[100px]"><p className=" gap-[10px] font-[600] text-[30px] flex">97 <span className="text-[#ff3300] font-[700]">%</span></p><p className="text-[15px] font-[600]">Of Client Satisfaction</p></div>
-                <div className="h-[100px] w-[100px]"><p className=" gap-[10px] font-[600] text-[30px] flex">1.5 <span className="text-[#ff3300] font-[700]">+</span></p><p className="text-[15px] font-[600]">Year Of experience</p></div>
-            </div>                
-            </div>
-
           </div>
         </div>
       </div>
