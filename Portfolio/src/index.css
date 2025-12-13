@@ -36,7 +36,6 @@ nav {
 }
 nav .logo {
   font-size: 40px;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
 }
 nav ul {
@@ -44,7 +43,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 600;
 }
 nav ul li:hover {
@@ -347,7 +345,6 @@ nav ul li:nth-child(5) {
 .baner-left .bl-4 {
   font-size: 16px;
   margin-left: 50px;
-  font-family: "Space Grotesk", sans-serif;
   width: 550px;
   margin-top: 140px;
   font-size: 15px;
@@ -384,6 +381,16 @@ nav ul li:nth-child(5) {
   animation: icons;
   animation-duration: 1s;
 }
+.contact ul{
+  height: 50px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  animation: icons;
+  animation-duration: 1s;
+}
 @keyframes icons {
   from {
     opacity: 0%;
@@ -405,7 +412,24 @@ nav ul li:nth-child(5) {
   font-size: 18px;
   color: rgb(0, 0, 0);
 }
+.contact ul li{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
 .baner-left ul li:nth-child(1) {
+  animation: baner-icon1;
+  animation-iteration-count: 1;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.contact ul li:nth-child(1) {
   animation: baner-icon1;
   animation-iteration-count: 1;
   animation-delay: 1.5s;
@@ -426,6 +450,12 @@ nav ul li:nth-child(5) {
   animation-delay: 1.7s;
   animation-fill-mode: forwards;
 }
+.contact ul li:nth-child(2) {
+  animation: baner-icon2;
+  animation-iteration-count: 1;
+  animation-delay: 1.7s;
+  animation-fill-mode: forwards;
+}
 @keyframes baner-icon2 {
   from {
   }
@@ -441,6 +471,12 @@ nav ul li:nth-child(5) {
   animation-delay: 1.9s;
   animation-fill-mode: forwards;
 }
+.contact ul li:nth-child(3) {
+  animation: baner-icon3;
+  animation-iteration-count: 1;
+  animation-delay: 1.9s;
+  animation-fill-mode: forwards;
+}
 @keyframes baner-icon3 {
   from {
   }
@@ -451,6 +487,12 @@ nav ul li:nth-child(5) {
 }
 
 .baner-left ul li:nth-child(4) {
+  animation: baner-icon4;
+  animation-iteration-count: 1;
+  animation-delay: 2.1s;
+  animation-fill-mode: forwards;
+}
+.contact ul li:nth-child(4) {
   animation: baner-icon4;
   animation-iteration-count: 1;
   animation-delay: 2.1s;

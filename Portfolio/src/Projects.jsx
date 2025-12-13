@@ -3,10 +3,34 @@ import { CiStar } from "react-icons/ci";
 
 // Product Sets
 const featured = [
-  { img: "/p1.png", name: "E commerce 1", review: 10, prise: 900, discount: 1200 },
-  { img: "/p2.png", name: "E commerce 2", review: 8, prise: 850, discount: 1000 },
-  { img: "/p3.png", name: "E commerce 3", review: 6, prise: 700, discount: 900 },
-  { img: "/p4.png", name: "E commerce 4", review: 15, prise: 950, discount: 1300 },
+  {
+    img: "/p1.png",
+    name: "E commerce 1",
+    review: 10,
+    prise: 900,
+    discount: 1200,
+  },
+  {
+    img: "/p2.png",
+    name: "E commerce 2",
+    review: 8,
+    prise: 850,
+    discount: 1000,
+  },
+  {
+    img: "/p3.png",
+    name: "E commerce 3",
+    review: 6,
+    prise: 700,
+    discount: 900,
+  },
+  {
+    img: "/p4.png",
+    name: "E commerce 4",
+    review: 15,
+    prise: 950,
+    discount: 1300,
+  },
 ];
 
 const newArrivals = [
@@ -32,10 +56,9 @@ const bestSeller = [
 
 // Tabs
 const tabs = [
-  { id: "featured", label: "E Commerce" },
-  { id: "new", label: "New Arrivals" },
-  { id: "top", label: "Top Rated" },
-  { id: "best", label: "Best Seller" },
+  { id: "featured", label: "Favourite" },
+  { id: "new", label: "Landing Pages" },
+  { id: "best", label: "Functionality" },
 ];
 
 const Projects = () => {
@@ -48,8 +71,6 @@ const Projects = () => {
         return featured;
       case "new":
         return newArrivals;
-      case "top":
-        return topRated;
       case "best":
         return bestSeller;
       default:
@@ -85,19 +106,27 @@ const Projects = () => {
         {/* SECTION BOXES (4 items) */}
         <div className="grid grid-cols-4 gap-8 mt-[40px]">
           {getSectionProducts().map((item, i) => (
-            <div key={i} className="  overflow-hidden w-[250px] mx-auto bg-[#4fff5d]  rounded-[10px] px-[15px] relative project-cart">
+            <div
+              key={i}
+              className="  overflow-hidden w-[250px] mx-auto bg-[#4fff5d]  rounded-[10px] px-[15px] relative project-cart"
+            >
               <i className=" text-[black] text-[20px] underline">{item.name}</i>
               <div className=" rounded-t-[10px] h-[220px] bg-[#302a2a]"></div>
-              <p className="text-[12px] py-[10px] text-[black] font-[700]"><i>Orebi is
-                 a fully functional e-commerce site with a user-friendly interface and product
-                  management, built with modern technologies.</i></p>
-                  <div className="flex justify-center items-center live-link h-[370px] w-[250px] mx-auto bg-[#ffffff1c] absolute backdrop-blur-[1px] ml-[-15px]  rounded-[10px]">
-                    <button className=" px-[20px] py-[7px] font-[600] rounded-[5px] bg-[white] text-[black] text-[15px]"><i>live site</i></button>
-                  </div>
+              <p className="text-[12px] py-[10px] text-[black] font-[700]">
+                <i>
+                  Orebi is a fully functional e-commerce site with a
+                  user-friendly interface and product management, built with
+                  modern technologies.
+                </i>
+              </p>
+              <div className="flex justify-center items-center live-link h-[370px] w-[250px] mx-auto bg-[#ffffff1c] absolute backdrop-blur-[1px] ml-[-15px]  rounded-[10px]">
+                <button className=" scale-[0.9] hover:scale-[1] transition-all cursor-pointer px-[20px] py-[7px] font-[600] rounded-[5px] bg-[white] text-[black] text-[15px]">
+                  <i>live site</i>
+                </button>
+              </div>
             </div>
           ))}
         </div>
-
       </div>
     </div>
   );

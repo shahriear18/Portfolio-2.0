@@ -16,12 +16,12 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container">
+      <div className="container edusa">
         <i className="fa-solid fa-bars" onClick={apearnav}></i>
         <nav>
           <a className="logo" href="">Shahriear!</a>
           <ul style={{ display: responce }}>
-            <li><a href="">Home</a></li>
+            <li ><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Project</a></li>
             <li><a href="">Skills</a></li>

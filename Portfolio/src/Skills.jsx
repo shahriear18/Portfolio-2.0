@@ -5,17 +5,21 @@ import { PiCodeBold } from "react-icons/pi";
 import { HiAdjustmentsVertical } from "react-icons/hi2";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { RiGraduationCapFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
     <div id="Skills">
-      <div className="container">
-            <h2 className ="text-[30px] text-center pb-[50px]">My Skills and Educations</h2>
+      <div className="container edusa">
+            <h2 className ="text-[30px] text-center pb-[50px]">My <span className="text-[#6f00ff]">Skills</span> and <span className="text-[#6f00ff]">Educations</span></h2>
         <div className="h-[60px] flex justify-between items-center">
           <i className="fa-brands fa-html5 text-[#ff5100] text-[40px] html"></i>
           <i className="fa-brands fa-css3 text-[#003cff] text-[40px] css"></i>
           <i className="fa-brands fa-square-js text-[#fffb00] text-[40px] js"></i>
           <i className="fa-brands fa-react text-[#00eeff] text-[40px]"></i>
+          <div className=" text-[40px] bg-amber-50 text-[black] rounded-full">
+            <RiNextjsFill />
+          </div>
           <div className=" tailwind text-[40px] text-[#00ccff]">
             <RiTailwindCssFill />
           </div>
@@ -109,7 +113,7 @@ const Skills = () => {
             </div>
             <div>
               <div className=" ml-[350px] gap-[20px] mt-[30px]">
-                <div className=" mb-[5px] rounded-[10px] scale-[0.9] hover:scale-[1.1] transition-all h-[130px] w-[400px] bg-[#58575a3b] backdrop-blur-[10px]">
+                <div className=" mb-[-15px] rounded-[10px] scale-[0.8] hover:scale-[0.9] transition-all h-[130px] w-[400px] bg-[#58575a3b] backdrop-blur-[10px]">
                   <div className = " flex gap-4 items-center">
                     <div className = "  mt-[10px] ml-[10px] bg-[#ffffff] h-[30px] w-[30px] flex justify-center items-center rounded-full">
                     <RiGraduationCapFill size={20} className = "text-[black]" />
@@ -122,7 +126,7 @@ const Skills = () => {
                     <h2>- Focused on ICT and English Literature.</h2>
                   </div>
                 </div>
-                <div className="mb-[5px] rounded-[10px] scale-[0.9] hover:scale-[1.1] transition-all h-[150px] w-[400px] bg-[#5a57573b] backdrop-blur-[10px]">
+                <div className="mb-[-15px] rounded-[10px] scale-[0.8] hover:scale-[0.9] transition-all h-[150px] w-[400px] bg-[#5a57573b] backdrop-blur-[10px]">
                   <div className = " flex items-center gap-4">
                     <div className = "  mt-[10px] ml-[10px] bg-[#ffffff] h-[30px] w-[30px] flex justify-center items-center rounded-full">
                     <RiGraduationCapFill size={20} className = "text-[black]" />
@@ -134,7 +138,7 @@ const Skills = () => {
                     <h2>Diploma graduate from Creative IT Institute, achieving excellence and distinction in web development with top honors</h2>
                   </div>
                 </div>
-                <div className=" rounded-[10px] scale-[0.9] hover:scale-[1.1] transition-all h-[150px] w-[400px] bg-[#5a57573b] backdrop-blur-[10px]">
+                <div className=" rounded-[10px] scale-[0.8] hover:scale-[0.9] transition-all h-[150px] w-[400px] bg-[#5a57573b] backdrop-blur-[10px]">
                   <div className = " flex items-center gap-4">
                     <div className = "  mt-[10px] ml-[10px] bg-[#ffffff] h-[30px] w-[30px] flex justify-center items-center rounded-full">
                     <RiGraduationCapFill size={20} className = "text-[black]" />

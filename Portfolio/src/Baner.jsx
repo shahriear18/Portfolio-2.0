@@ -11,7 +11,7 @@ const Baner = () => {
                 <h3 className="bl-3">
                   A Mern Stack <span>Developer</span>
                 </h3>
-                <p className="bl-4">
+                <p className="bl-4 edusa">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
                   voluptatem quidem labore! Reiciendis animi dolorum debitis
                   tempora aperiam asperiores voluptatibus.
