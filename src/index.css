@@ -233,13 +233,11 @@ nav ul li:nth-child(5) {
   }
 }
 #baner {
-  height: 600px;
 }
 .baner-wrap {
   display: flex;
 }
 .baner-left {
-  height: 600px;
   width: 50%;
 }
 .baner-right {
@@ -1644,16 +1642,14 @@ nav ul li:nth-child(5) {
     animation: none;
   }
   #baner {
-    height: 430px;
   }
   .baner-left {
-    height: 430px;
   }
   .baner-wrap {
-    height: 430px;
+    margin-bottom: 50px;
   }
   .baner-left .bl-1 {
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 0px;
     text-align: center;
   }
@@ -1668,7 +1664,7 @@ nav ul li:nth-child(5) {
     }
   }
   .baner-left .bl-2 {
-    font-size: 25px;
+    font-size: 40px;
     margin-left: 0px;
     margin-top: 5px;
     text-align: center;
@@ -1685,9 +1681,9 @@ nav ul li:nth-child(5) {
     }
   }
   .baner-left .bl-3 {
-    font-size: 17px;
+    font-size: 25px;
     margin-left: 0px;
-    margin-top: 45px;
+    margin-top:65px;
     letter-spacing: 1px;
     text-align: center;
     width: 100%;
@@ -1705,10 +1701,10 @@ nav ul li:nth-child(5) {
     }
   }
   .baner-left .bl-4 {
-    font-size: 11px;
+    font-size: 15px;
     margin-left: 0px;
     width: 100%;
-    margin-top: 85px;
+    margin-top: 125px;
     text-align: center;
   }
   @keyframes bl-4 {
